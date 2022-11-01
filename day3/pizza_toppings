@@ -3,7 +3,7 @@ j=0
 for i in range(100):
     j+=1
     x=input("Enter the toppings :")
-    pizza.append(x)
     if x=='quit':
         break
+    pizza.append(x)
 print(pizza)
