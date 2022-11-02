@@ -1,0 +1,10 @@
+sandwich_orders=["Pastrami","Tuna","Chicken","Pastrami","Beef","Egg","Pastrami","Chicken"]
+length=len(sandwich_orders)
+finished_sandwiches=[]
+for i in range(length):
+    if sandwich_orders[i]=="Pastrami":
+        print("Pastrami Not Available")
+    else:
+        print("I have made your "+sandwich_orders[i]+" sandwich")
+        finished_sandwiches.append(sandwich_orders[i])
+print(finished_sandwiches)
