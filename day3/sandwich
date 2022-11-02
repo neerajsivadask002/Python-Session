@@ -1,6 +1,7 @@
 sandwich_orders=["Tuna","Chicken","Beef","Egg"]
 finished_sandwiches=[]
-for i in range(4):
-    print("I have made your "+sandwich_orders[i]+" sandwich")
-    finished_sandwiches.append(sandwich_orders[i])
+for i in sandwich_orders:
+    print("I have made your "+i+" sandwich")
+    finished_sandwiches.append(i)
 print(finished_sandwiches)
+
